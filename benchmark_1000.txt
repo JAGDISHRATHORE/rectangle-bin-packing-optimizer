@@ -1,0 +1,26 @@
+Running 1000-rectangle stress benchmark...
+
+
+========== STRESS BENCHMARK 1000 ==========
+
+Greedy AreaDescending:
+  bins used: 214
+  wasted area: 288
+  time (ms): 15.74
+
+Greedy MaxSideDescending:
+  bins used: 213
+  wasted area: 188
+  time (ms): 12.40
+
+Local Search Geometry (tuned):
+  bins used: 214
+  wasted area: 288
+  time (ms): 2.48
+
+Local Search Overlap (tuned):
+  bins used: 214
+  wasted area: 288
+  time (ms): 26.21
+
+Note: permutation local search is omitted in the 1000-rectangle stress benchmark because it is too expensive without stronger tuning.

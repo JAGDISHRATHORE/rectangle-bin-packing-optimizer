@@ -1,0 +1,82 @@
+========== LARGE BENCHMARK ==========
+
+--- Test case: instances=10, rectangles=50, min_w=1, max_w=8, min_h=1, max_h=8, box_size=10 ---
+
+Greedy AreaDescending:
+  avg bins used: 11.70
+  avg wasted area: 144.50
+  avg time (µs): 630.10
+
+Greedy MaxSideDescending:
+  avg bins used: 11.90
+  avg wasted area: 164.50
+  avg time (µs): 696.60
+
+Local Search Permutation:
+  avg bins used: 11.60
+  avg wasted area: 134.50
+  avg time (µs): 2168403.90
+
+Local Search Geometry:
+  avg bins used: 11.70
+  avg wasted area: 144.50
+  avg time (µs): 24186.40
+
+Local Search Overlap:
+  avg bins used: 11.70
+  avg wasted area: 144.50
+  avg time (µs): 1654.80
+
+--- Test case: instances=10, rectangles=80, min_w=1, max_w=8, min_h=1, max_h=8, box_size=10 ---
+
+Greedy AreaDescending:
+  avg bins used: 17.00
+  avg wasted area: 133.00
+  avg time (µs): 1606.70
+
+Greedy MaxSideDescending:
+  avg bins used: 17.20
+  avg wasted area: 153.00
+  avg time (µs): 1506.70
+
+Local Search Permutation:
+  avg bins used: 16.90
+  avg wasted area: 123.00
+  avg time (µs): 14945392.70
+
+Local Search Geometry:
+  avg bins used: 17.00
+  avg wasted area: 133.00
+  avg time (µs): 88613.10
+
+Local Search Overlap:
+  avg bins used: 17.00
+  avg wasted area: 133.00
+  avg time (µs): 3061.00
+
+--- Test case: instances=10, rectangles=100, min_w=1, max_w=8, min_h=1, max_h=8, box_size=10 ---
+
+Greedy AreaDescending:
+  avg bins used: 21.20
+  avg wasted area: 119.00
+  avg time (µs): 2509.20
+
+Greedy MaxSideDescending:
+  avg bins used: 21.40
+  avg wasted area: 139.00
+  avg time (µs): 2308.90
+
+Local Search Permutation:
+  avg bins used: 21.20
+  avg wasted area: 119.00
+  avg time (µs): 36799760.70
+
+Local Search Geometry:
+  avg bins used: 21.20
+  avg wasted area: 119.00
+  avg time (µs): 170403.20
+
+Local Search Overlap:
+  avg bins used: 21.20
+  avg wasted area: 119.00
+  avg time (µs): 4198.60
