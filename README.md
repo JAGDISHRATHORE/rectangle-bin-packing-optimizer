@@ -1,6 +1,5 @@
 # Rectangle Bin Packing Optimizer
 
-This project was developed as part of the Optimization Algorithms course at university.
 
 The goal of the project is to solve a variation of the 2D Rectangle Bin Packing Problem. Given a set of rectangles and a fixed box size, the task is to place all rectangles into the minimum number of boxes while ensuring that no rectangles overlap. Rectangles may also be rotated by 90 degrees to improve the packing quality.
 
